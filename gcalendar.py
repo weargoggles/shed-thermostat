@@ -9,7 +9,7 @@ CALENDAR_ID = "weargoggles.co.uk_ua13rcg16tm2t6c1m3jnpl6h28@group.calendar.googl
 
 # https://developers.google.com/google-apps/calendar/auth
 
-def get_events(date):
+def get_events():
     with requests.get(PRIVATE_ICS_URL) as response:
         cal = ics.Calendar(response.text)
     
@@ -20,3 +20,7 @@ def is_an_event_active():
     now = arrow.now()
     return any(e.begin <= now <= e.end for e in events)
 
+
+if __name__ == "__main__":
+    now = arrow.now()
+    print("events now:", list(e for e in get_events() if e.begin <= now <= e.end))

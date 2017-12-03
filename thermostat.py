@@ -1,4 +1,4 @@
-def bounds(shed_in_use):
+def get_bounds(shed_in_use):
     if shed_in_use:
         return (16, 18)
     else:
