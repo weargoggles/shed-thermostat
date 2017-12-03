@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "shed-thermometer",
+  "private_key_id": "ae0d642c06c14c37ac9e22af138ce7552a624e35",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC6HaN00EzMQlZj\nH6L92ICQItuSFkCosTdkj26E76Ca8cr7iC7A/b53QsPs54wG2DwbOieevQ/CcvMa\nCFpI+AitqBsGAx5lxaroZxhVdC64vVjm6XJJp/WokwOJkELC8kEKWGHnmQukYs3Y\nUJNH3LEypzhGcmQlkTJ3H5b86R3kJGrvBKlGCzwMyZ6PawlS2Wpg4OaAhyfhGT1+\nUFsB3Odm20PFmz/dfsgU/GPqVRNbZy0suxafxuQZ1cAOFrQU1xyXlZKQ9iVtHe5S\nBgbeEoIsAmWqix2yD0weeRgx/PFuw87IA9jj/z9cORiIvr85wen7jy+mJyrAbWm7\nxuO6zaMTAgMBAAECggEAWWpv42lH3EJquoiyh/6CFb2Je/AQ9HrfwAJg+KEfqhFM\nkfflbnb6ENYUxzafQZKVngccjdkLP0J2pSUqKzBvCu9evE63RfHnoGwXdsaww7TE\nh3vUmqqFDY5D/s0+Jea5dLztnJUc0MdfWfOsLrRKtak9EitXDe1qL20P30YoRDih\nA3sjaRo1QefdnNmAGo1kFBJDRqqAdb6UIbPIgmgBcvz+aG+osrGmNGYpPAQF8fX5\nlQ9Tzdxjt0SHIto59fr4j49jY+kxfT+qm2emADIRZ/qLeuvOUGXDVpUO/NVL3RGa\ncqSMW/BdW4fzY0XDtBSJ5V77VWRBwK3sjm8vUkVaYQKBgQDhydN2EdUleI/ogiKi\nNO4/nSMHlTfC1MRBaXRDQzfnHGKnPSAMoZDgHyrc52fUS3JysqtwbdrXG1/w9tyM\nGsWBuwTan6mClezVnYi5GZsv8fSHK+C8/Y+G6L8CUHvbB3OW7i6jkPf/FTC0nqgo\no2yX1vyHqefXYyD+MdHSqL5/uwKBgQDTBN0bKv6JeszQVyX8gg8l39aX1X1KebJC\nifk7KPjo+wPtEC4tijEOuf2U+nXwMhbAJL9cU7YVUo+lC1htimEZ/L8i8mqovWRi\nr0zRVoo0JKejrrDOoQzSdb52lks9tDNbxRd7FLWkUTOfEAx7aoHkm7H8XJT/H7Qo\nDVE8tClYiQKBgDMyHCyNZpMUfyztNQUqk0sBSkwR3Y7jx4w9aQtHVomkugnJpla2\n26614nYsUjKk2NKBCLZ5ckGMB3kPwHpUJ6x+x177DOh7LjRRgArYb4OzjQqJPHAd\n3klsxMK1lR/Y1LDIWPLlkBXarCyIPQDZ7WmQabopIFSKOZTpnvXxJSC5AoGBAMZ8\nw7HDXktY7ABoiP2cJL1+b+6/zKtaDzgRahKgtokHW6kIWDdTzlNI1WLluDvoEYhI\nyIsC3rntv9oB8vqOeEmmeO9ZUMRJ6Xv94mbiXPsxI1KOhhbGXDY2tKH9OubecpS2\nriCC2VynWMQcp3ELPQUZAnEbcLcNTjuCU1CjMmTpAoGAUS4KOn4SMHZo6UTrVcM6\nOEn61VGtAXZuWY1gC0jvhlYceAaIcNrqi5SD21IWg7dQ49WBFYsbHAQQptVA2U1L\n1UTljqcDWsSsQ46pueEp2czAgcSomqJYhjAcuSoD6/vprH4VwOqIAQeMzG21BQPH\nMRn4nlGokiY021St0gTjZNA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pi-517@shed-thermometer.iam.gserviceaccount.com",
+  "client_id": "112743687806841604601",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pi-517%40shed-thermometer.iam.gserviceaccount.com"
+}
