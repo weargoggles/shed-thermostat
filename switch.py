@@ -2,13 +2,19 @@
 from gpiozero import Energenie
 import sys
 
-def heater(on):
-  with Energenie(1) as heater:
-    heater.on() if on else heater.off()
+
+def on():
+    with Energenie(1) as heater:
+        heater.on()
+
+
+def off():
+    with Energenie(1) as heater:
+        heater.off()
 
 
 if __name__ == "__main__":
-  if len(sys.argv) != 2:
-    print("tell me on or off")
-    sys.exit(1)
-  heater(sys.argv[1] == "on")
+    if len(sys.argv) != 2:
+        print("tell me on or off")
+        sys.exit(1)
+    on() if sys.argv[1] == "on" else off()
