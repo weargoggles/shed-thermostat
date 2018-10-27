@@ -9,10 +9,12 @@ CALENDAR_ID = "weargoggles.co.uk_ua13rcg16tm2t6c1m3jnpl6h28@group.calendar.googl
 
 # https://developers.google.com/google-apps/calendar/auth
 
-def get_events():
+def get_calendar():
     with requests.get(PRIVATE_ICS_URL) as response:
-        cal = ics.Calendar(response.text)
-    
+        return ics.Calendar(response.text)
+
+def get_events():
+    cal = get_calendar()    
     return cal.events
     
 def is_an_event_active():

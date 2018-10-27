@@ -1,5 +1,5 @@
 def get_bounds(shed_in_use):
     if shed_in_use:
-        return (16, 18)
+        return (19, 20)
     else:
-        return (2, 4)
+        return (3, 4)
